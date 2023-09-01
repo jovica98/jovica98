@@ -4,8 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": " docker-compose up -d && docker-compose ps",
-    
+    "start": "npm install -g docker && docker-compose up -d && docker-compose ps",
+
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
